@@ -6,8 +6,9 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 ![
 
 Using the results above, we are able to answer the following questions:
-**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-**Is the slope of the linear model considered to be zero? Why or why not?
+**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+**Is the slope of the linear model considered to be zero? Why or why not?**
+
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
