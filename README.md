@@ -4,12 +4,13 @@
 The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using lm(), we created a linear regression model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file (Fig. 1) and using summary(), we are able to determine the p-value and r-squared value (Fig 2): 
 
 ![Linear_regression](images/Linear_regression.png)
-<p align = "left">
+
+<p align = "center">
 Fig.1 - Linear Regression Model
 </p>
 
 ![P_value_R_value](images/P_value_R_value.png)
-<p align = "left">
+<p align = "center">
 Fig.2 - Linear Regression Model: p-value and r-squared value
 </p>
 
@@ -32,3 +33,22 @@ Based on our results in Fig. 2, one can note that the R-squared value is equal t
 
 ## Summary Statistics on Suspension Coils
 
+In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. We created a summary statistics table to show:
+
+- The suspension coil’s PSI continuous variable across all manufacturing lots.
+
+![total_summary](images/total_summary.png)
+<p align = "center">
+Fig.3 - Summary Statistics of the suspension coil’s PSI column
+</p>
+
+- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+![lot_summary](images/lot_summary.png)
+<p align = "center">
+Fig.4 - Summary statistics on PSI of the suspension coils per lot
+</p>
+
+**Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. From, Fig. 3, the summary statistics across all manufacturing lots indicates that the variance is 62.29356, which is less than 100 PSI, which meets the design specification. However, in Fig. 4, we can see that variance of the suspension coils in Lot1 (0.98 PSI) and Lot2 (7.47 PSI) meet these requirements, but Lot3 is 170.29 which is significantly higher than 100 is definitely not meeting the design specification. 
